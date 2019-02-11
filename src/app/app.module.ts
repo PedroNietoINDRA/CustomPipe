@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NumberListComponent } from './number-list/number-list.component';
+import { NumberPrefixPipe } from './number-prefix.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NumberListComponent,
+    NumberPrefixPipe
   ],
   imports: [
     BrowserModule,
