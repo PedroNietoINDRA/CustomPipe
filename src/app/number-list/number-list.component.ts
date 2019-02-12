@@ -1,15 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-number-list',
-  templateUrl: './number-list.component.html',
-  styleUrls: ['./number-list.component.css']
+  templateUrl: './number-list.component.html'
 })
-export class  NumberListComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class  NumberListComponent {
+  number: string = '645842133';
 }
